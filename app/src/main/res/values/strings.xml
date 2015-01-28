@@ -3,8 +3,15 @@
 
     <string name="app_name">AlmasApp2</string>
     <string name="hello_world">Hello world!</string>
+
     <string name="menu_about_me">About me</string>
+    <string name="menu_linear_layout">LinearLayout</string>
+    <string name="menu_relative_layout">RelativeLayout</string>
+    <string name="menu_grid_layout">GridLayout</string>
+    <string name="menu_movies_data">Movies data</string>
+    <string name="menu_seek_bar">Seek Bar</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>

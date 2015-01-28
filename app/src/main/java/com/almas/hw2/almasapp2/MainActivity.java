@@ -3,7 +3,6 @@ package com.almas.hw2.almasapp2;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,7 +11,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.os.Build;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -46,16 +44,58 @@ public class MainActivity extends ActionBarActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
+        FragmentManager fm = getFragmentManager();
+        FragmentTransaction ft = fm.beginTransaction();
+
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_about_me) {
-            Log.d(TAG, "action_about_me");
+        switch (id) {
+            case R.id.action_about_me:
+                Log.d(TAG, "action_about_me");
 
-            FragmentManager fm = getFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.container, new AboutMeFragment(), "about_me_fragment");
-            ft.commit();
+                ft.replace(R.id.container, new AboutMeFragment(), "about_me_fragment");
+                ft.commit();
 
-            return true;
+                return true;
+
+            case R.id.action_linear_layout:
+                Log.d(TAG, "action_linear_layout");
+
+                ft.replace(R.id.container, new LinearLayoutFragment(), "linear_layout_fragment");
+                ft.commit();
+
+                return true;
+
+            case R.id.action_relative_layout:
+                Log.d(TAG, "action_relative_layout");
+
+                ft.replace(R.id.container, new RelativeLayoutFragment(), "relative_layout_fragment");
+                ft.commit();
+
+                return true;
+
+            case R.id.action_grid_layout:
+                Log.d(TAG, "action_grid_layout");
+
+                ft.replace(R.id.container, new GridLayoutFragment(), "grid_layout_fragment");
+                ft.commit();
+
+                return true;
+
+            case R.id.action_movies_data:
+                Log.d(TAG, "action_movies_data");
+
+                ft.replace(R.id.container, new MoviesDataFragment(), "movies_data_fragment");
+                ft.commit();
+
+                return true;
+
+            case R.id.action_seek_bar:
+                Log.d(TAG, "action_seek_bar");
+
+                ft.replace(R.id.container, new SeekBarFragment(), "seek_bar_fragment");
+                ft.commit();
+
+                return true;
         }
 
         return super.onOptionsItemSelected(item);

@@ -5,4 +5,19 @@
     <item android:id="@+id/action_about_me" android:title="@string/menu_about_me"
         android:orderInCategory="100" app:showAsAction="never" />
 
+    <item android:id="@+id/action_linear_layout" android:title="@string/menu_linear_layout"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_relative_layout" android:title="@string/menu_relative_layout"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_grid_layout" android:title="@string/menu_grid_layout"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_movies_data" android:title="@string/menu_movies_data"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_seek_bar" android:title="@string/menu_seek_bar"
+        android:orderInCategory="100" app:showAsAction="never" />
+
 </menu>
