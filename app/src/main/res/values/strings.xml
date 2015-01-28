@@ -12,6 +12,10 @@
     <string name="menu_seek_bar">Seek Bar</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <string name="my_name_title">My name:</string>
+    <string name="my_name">Jose Ernesto Almas de Jesus Junior</string>
+    <string name="class_session_title">Class session:</string>
+    <string name="class_session">CSE 400</string>
+    <string name="picture_title">A picture of me:</string>
 
 </resources>
