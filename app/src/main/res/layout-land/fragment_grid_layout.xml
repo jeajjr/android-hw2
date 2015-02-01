@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+            android:rowCount="6"
+            android:columnCount="6" >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:id="@+id/imageButton7"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:src="@drawable/down_button"
+                android:layout_columnSpan="2"
+                android:layout_rowSpan="2"
+                android:scaleType="centerInside" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:id="@+id/imageButton8"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:layout_gravity="fill"
+                android:src="@drawable/left_button"
+                android:layout_columnSpan="2"
+                android:layout_rowSpan="2"
+                android:scaleType="centerInside" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:id="@+id/imageButton9"
+                android:layout_row="0"
+                android:layout_column="4"
+                android:layout_gravity="fill"
+                android:src="@drawable/pencil"
+                android:layout_columnSpan="2"
+                android:layout_rowSpan="2"
+                android:scaleType="centerInside" />
+
+            <ImageButton
+                android:layout_width="136dp"
+                android:layout_height="120dp"
+                android:id="@+id/imageButton10"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:src="@drawable/folders"
+                android:layout_rowSpan="2"
+                android:layout_columnSpan="2" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:id="@+id/imageButton11"
+                android:layout_row="2"
+                android:layout_column="2"
+                android:layout_gravity="fill"
+                android:src="@drawable/cellphone"
+                android:layout_rowSpan="2"
+                android:layout_columnSpan="4" />
+
+
+
+            <ImageButton
+                android:layout_width="169dp"
+                android:layout_height="120dp"
+                android:id="@+id/imageButton12"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:src="@drawable/lamp"
+                android:layout_gravity="center|fill"
+                android:layout_rowSpan="2"
+                android:layout_columnSpan="3" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:id="@+id/imageButton13"
+            android:layout_row="4"
+            android:layout_column="3"
+            android:src="@drawable/headphones"
+            android:layout_gravity="fill"
+            android:layout_rowSpan="2"
+            android:layout_columnSpan="3" />
+
+
+    </GridLayout>
+</LinearLayout>

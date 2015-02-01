@@ -11,6 +11,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+
+import java.util.List;
+import java.util.Map;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -25,10 +29,7 @@ public class MainActivity extends ActionBarActivity {
                     .add(R.id.container, new PlaceholderFragment())
                     .commit();
         }
-
-        Log.d(TAG, "onCreate");
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -113,6 +114,7 @@ public class MainActivity extends ActionBarActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+
             return rootView;
         }
     }

@@ -18,4 +18,6 @@
     <string name="class_session">CSE 400</string>
     <string name="picture_title">A picture of me:</string>
 
+    <string name="movies_stars">Stars: </string>
+
 </resources>

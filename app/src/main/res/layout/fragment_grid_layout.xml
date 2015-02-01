@@ -1,15 +1,134 @@
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" tools:context="com.almas.hw2.almasapp2.GridLayoutFragment">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.almas.hw2.almasapp2.GridLayoutFragment"
+    android:rowCount="7"
+    android:columnCount="3"
+    android:layout_gravity="fill"
+    android:background="#ff00edff">
 
-    <!-- TODO: Update blank fragment layout -->
-
-    <TextView
+    <ImageButton
+        android:id="@+id/ImageButton1"
+        android:src="@drawable/down_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Grid"
-        android:id="@+id/textView6"
-        android:layout_row="35"
+        android:layout_gravity="fill"
+        android:layout_row="0"
         android:layout_column="0" />
+
+    <ImageButton
+        android:id="@+id/ImageButton2"
+        android:src="@drawable/left_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_row="0"
+        android:layout_column="1" />
+
+    <ImageButton
+        android:id="@+id/ImageButton3"
+        android:src="@drawable/pencil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_row="0"
+        android:layout_column="2" />
+
+    <ImageButton
+        android:id="@+id/ImageButton4"
+        android:src="@drawable/folders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:maxHeight="50dp"
+        android:maxWidth="50dp"
+        android:layout_rowSpan="2" />
+
+    <ImageButton
+        android:id="@+id/ImageButton5"
+        android:src="@drawable/cellphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_rowSpan="1" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:id="@+id/ImageButton7"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:src="@drawable/ic_launcher"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ImageButton6"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:src="@drawable/download_button"
+        android:layout_gravity="fill"
+        android:layout_columnSpan="2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:src="@drawable/pen" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_gravity="fill"
+        android:src="@drawable/lamp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:layout_gravity="fill"
+        android:src="@drawable/next_button" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton4"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:src="@drawable/star" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton5"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_gravity="fill"
+        android:src="@drawable/headphones" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton6"
+        android:layout_row="4"
+        android:layout_column="2"
+        android:layout_gravity="fill"
+        android:src="@drawable/thumbs" />
+
+
 </GridLayout>
