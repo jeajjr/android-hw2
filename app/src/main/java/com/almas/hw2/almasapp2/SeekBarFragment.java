@@ -19,7 +19,7 @@ public class SeekBarFragment extends Fragment {
     private ImageView image;
     private SeekBar seekBar;
 
-    private double imageDelta = 600.0f;
+    private double imageDelta = 500.0f;
     private double imageMin = 100.0f;
 
     public SeekBarFragment() {
